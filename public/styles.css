@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+h1 {
+  color: gray;
+}
+
+body {
+  max-width: 800px;
+  /* min-height: 100vh; */
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 2px 12px;
+
+  color: #fff;
+  background-color: steelblue;
+}
+
+body main {
+  margin: auto;
+}
+
+header {
+  margin: 36px 0;
+}
+
+form {
+  margin: 0px 0 18px;
+}
+
+ul span {
+  display: inline-block;
+  width: 140px;
+}
+
+ul button {
+  font-size: 10px;
+}
